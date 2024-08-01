@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fija el ancho del contenedor para un mejor alineamiento */
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left; /* Alinea las etiquetas y los campos de entrada a la izquierda */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Añade negrita a las etiquetas para mejor legibilidad */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Hace que el botón ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
